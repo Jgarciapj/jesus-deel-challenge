@@ -1,12 +1,12 @@
 # **Deel Jesus Challenge**
 
-### Installig
+## Installig
 
 ```
 npm install
 ```
 
-### Running app
+## Running app
 
 ```
 npm start
