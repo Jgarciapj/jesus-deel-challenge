@@ -1,0 +1,64 @@
+.error-display {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 3px solid rgb(176, 8, 8);
+  border-radius: 25px;
+  padding: 18px;
+  font-weight: bold;
+}
+
+.container {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #dfe1e5;
+  font-weight: bold;
+}
+
+.autocomplete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  font-size: 25px;
+  padding: 14px;
+}
+
+.options {
+  width: 528px;
+  list-style: none;
+  background-color: #f5f5f5;
+  padding: 0;
+  margin-top: 14px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.option {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.option:hover {
+  background-color: rgb(240, 233, 144);
+}
+
+.highlight {
+  background-color: rgb(225, 211, 10);
+}
